@@ -18,7 +18,7 @@ var FixedDataTable = require('fixed-data-table');
 var React = require('react');
 
 var Column = FixedDataTable.Column;
-var PropTypes = React.PropTypes;
+var PropTypes = require('prop-types');
 var Table = FixedDataTable.Table;
 
 var ROWS = 1000000;
